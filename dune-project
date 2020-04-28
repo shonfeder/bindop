@@ -14,4 +14,4 @@
 Binding operators
 ")
  (documentation https://shonfeder.github.io/bindop/)
- (depends alcotest base))
+ (depends alcotest base lwt))
