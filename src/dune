@@ -1,0 +1,3 @@
+(library
+ (name bindop)
+ (libraries logs))
