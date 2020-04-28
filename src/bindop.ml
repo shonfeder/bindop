@@ -43,4 +43,4 @@ module Make2 (M : Base.Monad.Infix2) = struct
   let ( let+ ) = ( >>| )
 end
 
-module Result : S2 = Make2 (Result)
+module Result : S2 with type ('a, 'e) t = ('a, 'e) Result.t = Make2 (Result)
